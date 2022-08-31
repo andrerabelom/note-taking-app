@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lista de Tarefas</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<img class="logo" src="ifes.png" alt="" />
+
+		<h1 class="titulo">Lista de Tarefas</h1>
+		<p class="primeiroParagrafo">Minha primeira lista de tarefas</p>
+
+		<div class="containerPesquisa">
+			<input class="inputTexto" id="nova-tarefa" type="text" placeholder="Digite aqui a sua tarefa ..." autofocus />
+			<button class="botaoAdicionar" id="botaoAdicionar">Adicionar</button>
+		</div>
+
+		<div class="containerLista">
+			<ul class="listaPai" id="listaPai">
+				
+			</ul>
+		</div>
+
+		<div class="containerbotaoApagar">
+			<button class="botaoApagar" id="botaoApagar">Limpar</button>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

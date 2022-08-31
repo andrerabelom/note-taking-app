@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    
+    font-family: 'Arial';
+    background-color: lightgray;
+    
+}
+
+
+.logo {
+width: 150px;
+height: 150px;
+margin: 20px;
+}
+
+.titulo, .primeiroParagrafo {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin:5px;
+
+}
+
+.titulo {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.containerPesquisa {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.inputTexto {
+    border: 3px solid black;
+    width: 500px;
+    margin: 20px;
+    height: 40px;
+    background-color: black;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: white;
+    
+}
+
+.botaoAdicionar {
+    background-color: black;
+    margin: 20px;
+    height: 40px;
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+
+
+}
+
+.containerLista {
+    margin-left: 100px;
+}
+
+.listaPai {
+    list-style:none;
+}
+
+.listaPai > li {
+    background-color: black;
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    border: 3px solid white;
+    color: white;
+
+}
+
+li > button {
+    
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 40px;
+    width: 30px;
+    color: red;
+    font-weight: 900;
+    margin-top: 20px;
+
+}
+
+.containerbotaoApagar {
+    margin: 30px;
+    margin-left: 225px;
+}
+
+.botaoApagar {
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    line-height: 0;
+    border-radius: 2px;
+    border:none;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius:20px;
+    color: white;
+    
+}
+
+.done span {
+    text-decoration: line-through;
+}
+
+.deletado span {
+    background-color: red;
+}
+
+li {
+    flex-wrap: wrap;
+}
+
+.listaPai > .done {
+    background-color: green;
+}
